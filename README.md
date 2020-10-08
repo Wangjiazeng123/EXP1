@@ -8,7 +8,7 @@
 再完成每个类中的两个构造方法
 利用private和public避免直接通过”类对象.属性“的形式访问属性值
 最终完成实验
-###核心方法
+##核心方法
 1、方法一
 public CPU(int speed,String type,double temp) {
 	setSpeed(speed);
@@ -45,7 +45,7 @@ public static void main(String args[]) {
 	       pc.setCPU(cpu);
 	       pc.show();
 	    }
-####实验结果
+##实验结果
 ![1](https://github.com/Wangjiazeng123/EXP1/blob/main/2061873356d408af44749acb946ae38.png)
-#####实验感想
+##实验感想
 通过此次实验初次了解了java并会利用private和public的用法，熟练掌握了在类中定义构造方法。
