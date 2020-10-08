@@ -14,7 +14,8 @@
 最终完成实验
 ## 核心方法
 ### 1、方法一
-public CPU(int speed,String type,double temp) {
+  
+  public CPU(int speed,String type,double temp) {
 	setSpeed(speed);
 	setType(type);
 	setTemp(temp);
