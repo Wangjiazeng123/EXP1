@@ -27,6 +27,7 @@ private    HardDisk HD;
        System.out.println("Ó²ÅÌÈÝÁ¿:"+HD.getAmount());
        System.out.println("CPU temp is "+cpu.getTemp()+"¡ã ");
        System.out.println("HardDisk Rads is "+HD.getRads()+" rps.");
+       System.out.println("CPU Type is "+cpu.getType()+" ");
     }
 
 
