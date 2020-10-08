@@ -12,13 +12,13 @@
 利用private和public避免直接通过”类对象.属性“的形式访问属性值
 最终完成实验
 ## 核心方法
-1、方法一
+### 1、方法一
 public CPU(int speed,String type,double temp) {
 	setSpeed(speed);
 	setType(type);
 	setTemp(temp);
 }
-2、方法二
+### 2、方法二
 
 public void setTemp(double m) {
 	if(m>60.00 && m<100.00)
@@ -27,7 +27,7 @@ public void setTemp(double m) {
 	    	{System.out.println("CPU temp was wrong!");
 	    	temp=m;
 	    	}
-3、方法三
+### 3、方法三
  public int getRads() {
 			return rads;
 		}
@@ -35,7 +35,7 @@ public void setTemp(double m) {
 		   this.rads = rads;
 
 	}
-4、方法四
+### 4、方法四
 public static void main(String args[]) {
 	       CPU cpu = new CPU();
 	       HardDisk HD=new HardDisk();
