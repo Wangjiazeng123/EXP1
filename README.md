@@ -1,2 +1,2 @@
 # EXP1
-![1](https://github.com/Wangjiazeng123/EXP1/blob/main/b1b9235b3a2dac4c063621a8e2c18c5.png)
+![1](https://github.com/Wangjiazeng123/EXP1/blob/main/a0c4cf27bc8297d1b00abf691090ffd.png)
