@@ -22,11 +22,11 @@ private    HardDisk HD;
 
     public void show(){
 
-       System.out.println("CPUËÙ¶È:"+cpu.getSpeed());
+       System.out.println("CPUÃ‹Ã™Â¶Ãˆ:"+cpu.getSpeed());
        System.out.println("HardDisk is "+HD.getAmount()+" G.");
-       System.out.println("Ó²ÅÌÈİÁ¿:"+HD.getAmount());
-       System.out.println("CPU temp is "+cpu.getTemp()+"¡ã ");
-       System.out.println("HardDisk readspeed is "+HD.getRads()+" rps.");
+       System.out.println("Ã“Â²Ã…ÃŒÃˆÃÃÂ¿:"+HD.getAmount());
+       System.out.println("CPU temp is "+cpu.getTemp()+"Â¡Ã£ ");
+       System.out.println("HardDisk Rads is "+HD.getRads()+" rps.");
     }
 
 
