@@ -14,7 +14,7 @@ public class Test {
 
 	       cpu.setSpeed(2200);
 	       cpu.setTemp(67);
-	       cpu.setType("intel");
+	       cpu.setType("intel i9");
 	       HD.setAmount(200);
 	       HD.setRads(5400);
 	       PC pc =new PC(HD);
