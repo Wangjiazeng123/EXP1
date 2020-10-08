@@ -33,7 +33,6 @@ public void setTemp(double m) {
 		}
 	   public void setRads(int rads) {
 		   this.rads = rads;
-
 	}
 ### 4、方法四
 public static void main(String args[]) {
