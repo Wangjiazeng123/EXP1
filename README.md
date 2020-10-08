@@ -15,39 +15,39 @@
 ## 核心方法
 ### 1、方法一
   
-  public CPU(int speed,String type,double temp) {
-	setSpeed(speed);
-	setType(type);
-	setTemp(temp);
+  public CPU(int speed,String type,double temp) {  
+	setSpeed(speed);  
+	setType(type);  
+	setTemp(temp);  
 }
 ### 2、方法二
 
-public void setTemp(double m) {
-	if(m>60.00 && m<100.00)
-		temp=m;
-	    else 
-	    	{System.out.println("CPU temp was wrong!");
-	    	temp=m;
+public void setTemp(double m) {  
+	if(m>60.00 && m<100.00)  
+		temp=m;  
+	    else   
+	    	{System.out.println("CPU temp was wrong!");  
+	    	temp=m;  
 	    	}
 ### 3、方法三
- public int getRads() {
-			return rads;
-		}
-	   public void setRads(int rads) {
-		   this.rads = rads;
+ public int getRads() {  
+			return rads;  
+		}  
+	   public void setRads(int rads) {  
+		   this.rads = rads;  
 	}
 ### 4、方法四
-public static void main(String args[]) {
-	       CPU cpu = new CPU();
-	       HardDisk HD=new HardDisk();
-	       cpu.setSpeed(2200);
-	       cpu.setTemp(67);
-	       cpu.setType("intel i9");
-	       HD.setAmount(200);
-	       HD.setRads(5400);
-	       PC pc =new PC(HD);
-	       pc.setCPU(cpu);
-	       pc.show();
+public static void main(String args[]) {  
+	       CPU cpu = new CPU();  
+	       HardDisk HD=new HardDisk();  
+	       cpu.setSpeed(2200);  
+	       cpu.setTemp(67);  
+	       cpu.setType("intel i9");  
+	       HD.setAmount(200);  
+	       HD.setRads(5400);  
+	       PC pc =new PC(HD);  
+	       pc.setCPU(cpu);  
+	       pc.show();  
 	    }
 ## 实验结果
 ![1](https://github.com/Wangjiazeng123/EXP1/blob/main/2061873356d408af44749acb946ae38.png)
